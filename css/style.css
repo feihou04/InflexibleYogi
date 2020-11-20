@@ -112,3 +112,14 @@ body {
 .card-link {
     font-size: 28px;
 }
+@media all and (max-width: 650px) {
+    .top {
+        background-image: url(../images/Yoga\ Practise\(extented\)mobile.png);
+       /* background-position: center;*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+        height: 850px;
+    }
+}
