@@ -122,4 +122,9 @@ body {
         width: 100vw;
         height: 750px;
     }
+  .aboutimg {
+       order: 1;
+   } 
+.aboutdetail{
+    order: 2;
 }
