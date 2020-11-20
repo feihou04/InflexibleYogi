@@ -8,22 +8,22 @@ body {
 
 }
 .top {
-    background-image: url(../images/Yoga\ Practise\ \(extended\)\ 2.png);
+    background-image: url(../images/Yoga\ Practise\(extented\)4.png);
    /* background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 950px;
+    height: 850px;
 }
 .nav-item a, .headline, .nav-item a:active {
     color: #EADFDE;
 }
 .dropdown-menu {
-    background: #514D5A;
+    background:#7b7883;
 }
  .dropdown-menu :hover {
-    background: #514D5A;
+    background: #7b7883;
     font-weight: 600;
     color: #EADFDE;
 }
@@ -31,6 +31,9 @@ body {
     padding: 10px 15px;
     background: #7B5D7B;
     color:#EADFDE;
+}
+.start:hover {
+    background: linear-gradient(rgba(123,93,123),purple);
 }
 .about {
     background-color: #EADFDE;
@@ -60,14 +63,14 @@ body {
    
 }
 .pricingbutton {
-    padding: 5px 30px;
-    background-color: #7B5D7B;
-    color: #EADFDE;
+    padding: 10px 15px;
+    background: #7B5D7B;
+    color:#EADFDE;
 }
 .footer {
     background:#EADFDE;
     width: 100vw;
-    height: 525px;
+    height: auto;
 
 }
 .policy a, .footerlink a{
@@ -94,4 +97,18 @@ body {
 }
 .icon3 :hover {
     color: #e61b27;
+}
+.footerlink li a, footer p {
+    font-size: 20px;
+}
+.footerlink li a {
+    text-decoration: none;
+}
+.footerlink li a :hover {
+ text-decoration: underline;
+    text-decoration-color: #8733a9;
+}
+
+.card-link {
+    font-size: 28px;
 }
