@@ -1,0 +1,231 @@
+body {
+    font-family: 'Vollkorn', serif;
+    
+}
+
+.logo, .headline {
+    font-family: 'Philosopher', sans-serif;
+
+}
+.navbar {
+    background: #7B5D7B;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+    
+}
+.nav-item a, .headline, .nav-item a:active {
+    color: #EADFDE;
+}
+.dropdown-menu {
+    background:#7B5D7B;
+}
+ .dropdown-menu :hover {
+    background: #7B5D7B;
+    font-weight: 600;
+    color: #EADFDE;
+}
+/*.myprofile {
+    background:#EADFDE;
+    width: 100vw;
+    height: auto;
+}*/
+.navbarNavDropdown li a {
+    color: black;
+}
+.footer {
+    background:#EADFDE;
+    width: 100vw;
+    height: auto;
+
+}
+.policy a, .footerlink a{
+    color: black;
+}
+.footerlink li {
+    list-style: none;
+    font-size: 20px;
+}
+.form-control {
+    background-color: #fcf6f6;
+    font-size: 20px;
+}
+.btn {
+    background: #7B5D7B;
+    font-size: 20px;
+    color: #EADFDE;
+}
+.icon1 :hover {
+    color: #8733a9;
+}
+.icon2 :hover {
+    color:#3b5998;
+}
+.icon3 :hover {
+    color: #e61b27;
+}
+.footerlink li a, footer p {
+    font-size: 20px;
+}
+.footerlink li a {
+    text-decoration: none;
+}
+.footerlink li a :hover {
+ text-decoration: underline;
+    text-decoration-color: #8733a9;
+}
+
+.card-link {
+    font-size: 28px;
+}
+
+/* profile page css below*/
+ .dropdown-item.active {
+    background: #8f6a8f;
+    font-weight: 600;
+}
+#sendlink {
+    
+    color: blue;
+}
+#sendlink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#upgrade {
+    background: #7B5D7B;
+    color: #EADFDE;
+    
+}
+#upgrade:hover {
+    background: linear-gradient(rgba(123,93,123),purple);
+}
+
+.form-group label {
+    font-weight: 700;
+}
+.myprofile h4, .upcomingevent h4, .dashboard h4, .dashboardtitle{
+     color: purple;
+     font-weight: 600;
+}
+.dashboardtitle {
+    line-height: 5px;
+}
+#classtime {
+    color: black;
+    font-size: 22px;
+    margin-bottom: -2px;
+}
+.lineheight {
+    line-height: 8px;
+    vertical-align: middle;
+}
+.upcomingevent{
+    background-color: #EADFDE;
+    width: 100vw;
+}
+.upcomingevent p {
+    font-size: 20px;
+}
+.classtitle {
+    color: rgb(6, 6, 179);
+}
+.card-text {
+    font-size: 22px;
+    color: black;
+    margin-bottom: -1px;
+   
+}
+.text-muted {
+    color: blue;
+    font-size: 16px;
+}
+#registermore {
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #EADFDE;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 25%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #DEC5C5;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #7B5D7B;
+    color: #EADFDE;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+@media all and (max-width: 650px) { #information {
+    font-size: 14px;
+}
+.card-body {
+    padding: 10px;
+}
+.card-body small {
+    font-size: 12px;
+}
+.card-text {
+    font-size: 18px;
+}
+ h5{
+    font-size: 22px;
+}
+.tablinks {
+    font-size: 17px;
+}
+.tab button {
+
+
+
+    padding: 14px 8px;
+    transition: 0.3s;
+    /*width: 25%;*/
+  }
+  #defaultOpen {
+      width: 28%;
+  }
+  .tab button {
+      width: 24%;
+  }
+  .col-form-label, .form-control, .form-control-plaintext, #upgrade {
+      font-size: 18px;
+  }
+  .upcomingevent p {
+      font-size: 18px;
+  }
+  .lineheight {
+    line-height: 10px;
+   
+}
+}
