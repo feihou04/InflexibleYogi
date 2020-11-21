@@ -93,13 +93,28 @@ body {
     text-decoration: underline;
     cursor: pointer;
 }
-#upgrade {
+.upgrade {
     background: #7B5D7B;
     color: #EADFDE;
+    align-self: center;
+    padding: 5px 15px;
+    font-size: 20px;
+   
     
 }
-#upgrade:hover {
+.card-body .disabled{
+    background:  #7B5D7B;
+}
+.upgrade:hover {
     background: linear-gradient(rgba(123,93,123),purple);
+    text-decoration: none;
+    color: #EADFDE;
+}
+.card-body a:hover, .card-body a:focus {
+    background: linear-gradient(rgba(123,93,123),purple);
+    text-decoration: none;
+    color: #EADFDE; 
+    border: none;
 }
 
 .form-group label {
@@ -166,6 +181,7 @@ body {
     padding: 14px 16px;
     transition: 0.3s;
     width: 25%;
+    font-size: 24px;
   }
   
   /* Change background color of buttons on hover */
@@ -205,7 +221,7 @@ body {
     font-size: 17px;
 }
 .tab button {
-
+font-size: 17px;
 
 
     padding: 14px 8px;
@@ -218,7 +234,7 @@ body {
   .tab button {
       width: 24%;
   }
-  .col-form-label, .form-control, .form-control-plaintext, #upgrade {
+  .col-form-label, .form-control, .form-control-plaintext, .upgrade {
       font-size: 18px;
   }
   .upcomingevent p {
