@@ -33,7 +33,7 @@ body {
     color:#EADFDE;
     border: none;
 }
-.start:hover, .start:focus, .start:active, .start:visited {
+.start:hover, .start:focus, .start:active, .start:visited, .start:link {
     background: linear-gradient(rgba(123,93,123),purple);
     border: none;
     color:#EADFDE;
