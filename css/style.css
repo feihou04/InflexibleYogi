@@ -40,7 +40,9 @@ body {
     outline: none;
     text-decoration: none;
 }
-
+.modal-footer a:hover {
+    text-decoration: none;
+}
 
 .about {
     background-color: #EADFDE;
