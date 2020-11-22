@@ -31,10 +31,16 @@ body {
     padding: 10px 15px;
     background: #7B5D7B;
     color:#EADFDE;
+    border: none;
 }
-.start:hover {
+.start:hover, .start:focus, .start:active, .start:visited {
     background: linear-gradient(rgba(123,93,123),purple);
+    border: none;
+    color:#EADFDE;
+    outline: none;
 }
+
+
 .about {
     background-color: #EADFDE;
 }
@@ -112,6 +118,7 @@ body {
 .card-link {
     font-size: 28px;
 }
+
 @media all and (max-width: 650px) {
     .top {
         background-image: url(../images/Yoga\ Practise\(extented\)mobile.png);
@@ -127,4 +134,19 @@ body {
    } 
 .aboutdetail{
     order: 2;
+}
+ .freevideodetail {
+     order: 2;
+  
+
+}
+.freevideoimg {
+    order: 1;
+    width: 60%;
+    
+}
+.freevideopic {
+    width: 100%;
+}
+
 }
