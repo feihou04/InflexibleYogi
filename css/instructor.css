@@ -1,0 +1,120 @@
+body {
+    font-family: 'Vollkorn', serif;
+    
+}
+
+.logo, .headline {
+    font-family: 'Philosopher', sans-serif;
+
+}
+.navbar {
+    background: #7B5D7B;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+    
+}
+.nav-item a, .headline, .nav-item a:active {
+    color: #EADFDE;
+}
+.dropdown-menu {
+    background:#7B5D7B;
+}
+ .dropdown-menu :hover {
+    background: #7B5D7B;
+    font-weight: 600;
+    color: #EADFDE;
+}
+
+.navbarNavDropdown li a {
+    color: black;
+}
+.footer {
+    background:#EADFDE;
+    width: 100vw;
+    height: auto;
+
+}
+.policy a, .footerlink a{
+    color: black;
+}
+.footerlink li {
+    list-style: none;
+    font-size: 20px;
+}
+.form-control {
+    background-color: #fcf6f6;
+    font-size: 20px;
+}
+.btn {
+    background: #7B5D7B;
+    font-size: 20px;
+    color: #EADFDE;
+}
+.icon1 :hover {
+    color: #8733a9;
+}
+.icon2 :hover {
+    color:#3b5998;
+}
+.icon3 :hover {
+    color: #e61b27;
+}
+.footerlink li a, footer p {
+    font-size: 20px;
+}
+.footerlink li a {
+    text-decoration: none;
+}
+.footerlink li a :hover {
+ text-decoration: underline;
+    text-decoration-color: #8733a9;
+}
+
+/* below is the css for instructor page*/
+
+.video {
+    width: 65%;
+}
+.start {
+    padding: 10px 15px;
+    background: #7B5D7B;
+    color:#EADFDE;
+    border: none;
+    font-size: 20px;
+}
+.start:hover, .start:focus, .start:active, .start:visited {
+    background: linear-gradient(rgba(123,93,123),purple);
+    border: none;
+    color:#EADFDE;
+    outline: none;
+    text-decoration: none;
+}
+.instructorimg {
+    width: 55%;
+}
+
+
+
+
+  
+@media all and (max-width: 650px) { 
+source {
+        width: 100%;
+}
+.start {
+    font-size: 14px;
+    padding: 8px 6px;
+}
+h3 {
+    font-size: 24px
+}
+.biotitle {
+    text-align: center;
+    margin-top: 20px;
+}
+.bio {
+    margin: 0px 35px;
+}
+}

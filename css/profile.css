@@ -202,6 +202,27 @@ body {
     border: 1px solid #ccc;
     border-top: none;
   }
+
+/* skill section*/
+/* Style buttons */
+.btn {
+
+    border: none; 
+    color: #EADFDE;
+    padding: 10px 18px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background: linear-gradient(rgba(123,93,123),purple);
+    text-decoration: none;
+    color: #EADFDE;
+  }
+
+
+  
 @media all and (max-width: 650px) { #information {
     font-size: 14px;
 }
